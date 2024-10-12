@@ -1,0 +1,24 @@
+{
+    "name": "mappify/mapper",
+    "description": "Mapping raw result from database to an object class",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mappify\\Mapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "tests": "test/"
+    },
+    "authors": [
+        {
+            "name": "proxy_mates",
+            "email": "hadissihaslam.in@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require-dev": {
+        "vimeo/psalm": "^5.26",
+        "phpunit/phpunit": "^10.5.30"
+    }
+}
